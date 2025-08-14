@@ -1,0 +1,21 @@
+                            <!-- WhatsApp Script -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById('whatsappfrom');
+
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const fname = document.getElementById('fname').value.trim();
+            const lname = document.getElementById('lname').value.trim();
+            const number = document.getElementById('wp_number').value.trim();
+            const name = fname + ' ' + lname;
+
+            const message = "Hello%2C%20My%20name%20is%20" + encodeURIComponent(name) +
+                "%20I%E2%80%99m%20interested%20in%20your%20services.%20Please%20contact%20me%20at%20your%20earliest%20convenience.%20You%20can%20reach%20me%20at%20" +
+                encodeURIComponent(number) + ".%20Thank%20you.";
+
+            window.open('https://wa.me/+917477264469?text=' + message, '_blank');
+        });
+    });
+</script>

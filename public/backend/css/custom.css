@@ -1,0 +1,75 @@
+.deleteBtn {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    padding: 0px !important;
+}
+.deleteBtn:hover {
+    background: white;
+}
+.deleteBtn:hover > i {
+    color: #ff4c3b !important;
+}
+#individualService ul li {
+	list-style: conic-gradient;
+	display: list-item;
+    list-style-position: inside;
+}
+
+.custom-pagination {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.page-link {
+	color: #575757;
+}
+.page-item.active .page-link {
+	z-index: 3;
+	color: #fff;
+	background-color: #ff4c3b;
+	border-color: #ff4c3b;
+}
+.page-wrapper .page-body-wrapper .page-sidebar .sidebar-user h6 {
+    color: #ffffff;
+}
+.alert{
+    z-index: 9999 !important;
+}
+#basic-1{
+    width: 100%;
+}
+.vendor-table tbody tr td:nth-child(2), .vendor-table tbody tr td:nth-child(5), .vendor-table tbody tr td:last-child {
+    text-align: left !important;
+}
+.vendor-table thead tr th:nth-child(2), .vendor-table thead tr th:nth-child(5), .vendor-table thead tr th:last-child {
+	text-align: left !important;
+}
+.editBtn {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    padding: 7px !important;
+    margin-right: 5px;
+}
+
+.editBtn:hover {
+    background: black !important;
+}
+.editBtn:hover > i {
+    color: white !important;
+}
+
+#image-preview{
+    max-height: 200px;
+    width: 200px;
+}
+#images-preview{
+    display: block;
+    width: 100%;
+}
+.strong {
+    font-weight: bold;
+}
