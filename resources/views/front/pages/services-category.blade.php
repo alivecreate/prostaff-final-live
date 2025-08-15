@@ -22,7 +22,7 @@
 
         <!-- Page Title -->
         <div class="text-center mb-5">
-            <h2 class="fw-bold text-black">Our Services Sector</h2>
+            <h2 class="fw-bold text-black">Our Service Sectors</h2>
         </div>
 
         <!-- Category Cards -->

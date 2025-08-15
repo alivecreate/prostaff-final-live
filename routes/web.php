@@ -116,7 +116,7 @@ Route::get('/youtube-link/{id}/edit', [YoutubeLinkController::class, 'edit'])->n
 Route::get('/', [PageController::class, 'index'])->name('index');
 Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/contact-us', [PageController::class, 'contact'])->name('contact');
-Route::get('/service', [PageController::class, 'services'])->name('services');
+// Route::get('/service', [PageController::class, 'services'])->name('services');
 Route::get('/project', [PageController::class, 'projects'])->name('projects');
 
 

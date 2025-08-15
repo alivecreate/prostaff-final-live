@@ -44,7 +44,7 @@
                     <li><a href="{{ route('index') }}">Home</a></li>
                     <li><a href="{{ route('about') }}">About us</a></li>
                     <li><a href="{{ route('permit') }}">Job seeker and Employer</a></li>
-                    <li><a href="{{route('services-category')}}">Our Services Sector</a></li>
+                    <li><a href="{{route('services-category')}}">Our Service Sectors</a></li>
                     {{-- <li><a href="{{ route('process') }}">Foreign Employment Process</a></li> --}}
                     <li><a href="{{ route('blog') }}">Blog</a></li>
                     <li><a href="{{ route('contact') }}">Contact</a></li>

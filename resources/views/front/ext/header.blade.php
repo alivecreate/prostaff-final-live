@@ -53,7 +53,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a href="{{route('services-category')}}" class="nav-link">Our Services Sector</a>
+                            <a href="{{route('services-category')}}" class="nav-link">Our Service Sectors</a>
                         </li>
 
                         <li class="nav-item">
