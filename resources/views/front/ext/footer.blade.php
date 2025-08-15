@@ -62,18 +62,18 @@
             <!-- end footer column -->
 
             <!-- start footer column -->
-            <div class="col-6 col-lg-2 col-sm-4 xs-mb-30px order-sm-5 order-lg-4">
+            <div class="col-6 col-lg-3 col-sm-4 xs-mb-30px order-sm-5 order-lg-4">
                 <span class="fs-18 fw-400 d-block text-white mb-5px">Get in touch</span>
                 {{-- <p class="mb-5px text-white">Need support?</p> --}}
-                <a href="mailto:{{ getWebsiteData()['primary_mail'] }}" class="text-white text-decoration-line-bottom d-block mb-15px">
+                <a href="mailto:{{ getWebsiteData()['primary_mail'] }}" class="text-white d-block mb-15px mb-2">
                     {{ getWebsiteData()['primary_mail'] }}
                 </a>
-                <a href="mailto:{{ getWebsiteData()['secondary_mail'] }}" class="text-white text-decoration-line-bottom d-block mb-15px">
+                <a href="mailto:{{ getWebsiteData()['secondary_mail'] }}" class="text-white d-block mb-15px">
                     {{ getWebsiteData()['secondary_mail'] }}
                 </a>
                 <span class="fs-18 fw-400 d-block text-white mb-5px">Contact No.</span>
                 {{-- <p class="mb-5px text-white"></p> --}}
-                <a href="tel:{{ getWebsiteData()['primary_phone'] }}" class="text-white lh-16 d-block">
+                <a href="tel:{{ getWebsiteData()['primary_phone'] }}" class="text-white lh-16 d-block mb-2">
                     {{ getWebsiteData()['primary_phone'] }}
                 </a>
                 <a href="tel:{{ getWebsiteData()['secondary_phone'] }}" class="text-white lh-16 d-block">
