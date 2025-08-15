@@ -218,139 +218,63 @@ Our dedicated team works closely with both candidates and employers to ensure th
             </div>
         </section>
 
+{{-- icon  --}}
+<section class="bg-very-light-gray py-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-center mb-4 text-center">
+            <div class="col-xl-5 col-lg-6 mb-3">
+                <h4 class="text-dark-gray fw-700 mb-0 ls-minus-1px">
+                    Why choose us as your recruitment consultant?
+                </h4>
+            </div>
+            {{-- <div class="col-xl-5 col-lg-6">
+                <p class="w-90 mx-auto">
+                    We put a strong focus on the needs of your business to figure out solutions that best fit your demand.
+                </p>
+            </div> --}}
+        </div>
 
-        <section class="bg-very-light-gray overflow-hidden">
-            <div class="container">
-                <div class="row align-items-center justify-content-center mb-6 text-center text-lg-start">
-                    <div class="col-xl-5 col-lg-5 md-mb-20px" data-anime='{ "translateX": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                        <h4 class="text-dark-gray fw-700 mb-0 ls-minus-1px">Why choose us as your recruitment consultant?</h4>
+        <div class="row text-center g-4">
+            <!-- Icon Item -->
+            <div class="col-6 col-md-3">
+                <div class="p-4 border rounded bg-white shadow-sm h-100">
+                    <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" style="width: 100px; height: 100px;">
+                        <i class="fa-solid fa-users text-primary" style="font-size: 40px;"></i>
                     </div>
-                    <div class="col-xl-5 col-lg-5 last-paragraph-no-margin md-mb-30px" data-anime='{ "translateX": [-50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                        <p class="w-90 xl-w-100 md-w-80 sm-w-100 md-mx-auto">We put a strong focus on the needs of your business to figure out solutions that best fits your demand.</p>
-                    </div>
-                    <div class="col-xl-2 col-lg-2 d-flex justify-content-center justify-content-lg-end" data-anime='{ "el": "childs", "translateX": [30, 0], "opacity": [0,1], "duration": 800, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'> 
-                        <!-- start slider navigation -->
-                        <div class="slider-one-slide-prev-1 icon-small text-dark-gray swiper-button-prev slider-navigation-style-04 bg-white text-dark-gray box-shadow-large"><i class="fa-solid fa-arrow-left"></i></div>
-                        <div class="slider-one-slide-next-1 icon-small text-dark-gray swiper-button-next slider-navigation-style-04 bg-white text-dark-gray box-shadow-large"><i class="fa-solid fa-arrow-right"></i></div>
-                        <!-- end slider navigation --> 
-                    </div>
-                </div>
-
-                <div class="row align-items-center">
-                    <div class="col-12 position-relative">
-                        <div class="outside-box-right-40 xs-outside-box-right-0" data-anime='{ "translateX": [100, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'>
-                            <div class="swiper magic-cursor" data-slider-options='{ "slidesPerView": 1, "spaceBetween": 28, "loop": true, "autoplay": { "delay": 2000, "disableOnInteraction": false }, "pagination": { "el": ".slider-four-slide-pagination-1", "clickable": true }, "navigation": { "nextEl": ".slider-one-slide-next-1", "prevEl": ".slider-one-slide-prev-1" }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 5 }, "992": { "slidesPerView": 4 }, "768": { "slidesPerView": 3 }, "576": { "slidesPerView": 2 } }, "effect": "slide" }'>
-                                <div class="swiper-wrapper">
-                                  
-                                    <div class="swiper-slide"> 
-                                        <div class="interactive-banner-style-08">
-                                            <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
-                                                <a href="services.blade.php">
-                                                    <img src="{{asset('picture/wy2.jpg')}}" alt="" />
-                                                </a>
-                                                <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-14 lg-p-12">
-                                                    {{-- <a href="services.blade.php">
-                                                        <i class="line-icon-Medal-2 text-white icon-extra-large"></i>
-                                                    </a> --}}
-                                                    <div class="mt-auto d-flex w-100 align-items-center">
-                                                        <div class="col last-paragraph-no-margin">
-                                                            <a href="{{route('services-category')}}" class="text-white fs-24 lh-28 w-65 xl-w-75 d-block">Right People</a>
-                                                        </div>
-                                                        <a href="{{route('services-category')}}" class="circle-box bg-yellow w-50px h-50px rounded-circle ms-auto position-relative rounded-box">
-                                                            <i class="bi bi-arrow-right-short absolute-middle-center icon-very-medium lh-0px text-dark-gray"></i>
-                                                        </a>  
-                                                    </div>
-                                                    <div class="position-absolute left-0px top-0px w-100 h-100 bg-gradient-gray-light-dark-transparent z-index-minus-1 opacity-9"></div> 
-                                                </figcaption>
-                                            </figure>
-                                        </div> 
-                                    </div>
-                                    <!-- end content carousal item -->
-                                    <!-- start content carousal item --> 
-                                    <div class="swiper-slide">
-                                        <div class="interactive-banner-style-08">
-                                            <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
-                                                <a href="{{route('services-category')}}">
-                                                    <img src="{{asset('picture/wy4.jpg')}}" alt="" />
-                                                </a>
-                                                <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-14 lg-p-10">
-                                                    {{-- <a href="services.blade.php">
-                                                        <i class="line-icon-Financial text-white icon-extra-large"></i>
-                                                    </a> --}}
-                                                    <div class="mt-auto d-flex w-100 align-items-center">
-                                                        <div class="col last-paragraph-no-margin">
-                                                            <a href="services.blade.php" class="text-white fs-24 lh-28 w-65 xl-w-75 d-block">Custom Help</a>
-                                                        </div>
-                                                        <a href="services.blade.php" class="circle-box bg-yellow w-50px h-50px rounded-circle ms-auto position-relative rounded-box">
-                                                            <i class="bi bi-arrow-right-short absolute-middle-center icon-very-medium lh-0px text-dark-gray"></i>
-                                                        </a> 
-                                                    </div>
-                                                    <div class="position-absolute left-0px top-0px w-100 h-100 bg-gradient-gray-light-dark-transparent z-index-minus-1 opacity-9"></div> 
-                                                </figcaption>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <!-- end content carousal item -->
-                                    <!-- start content carousal item --> 
-                                    <div class="swiper-slide">
-                                        <div class="interactive-banner-style-08">
-                                            <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
-                                                <a href="services.blade.php">
-                                                    <img src="{{asset('picture/11.jpg')}}" alt="" />
-                                                </a>
-                                                <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-14 lg-p-10">
-                                                    {{-- <a href="services.blade.php">
-                                                        <i class="line-icon-Archery-2 text-white icon-extra-large"></i>
-                                                    </a> --}}
-                                                    <div class="mt-auto d-flex w-100 align-items-center">
-                                                        <div class="col last-paragraph-no-margin">
-                                                            <a href="services.blade.php" class="text-white fs-24 lh-28 w-65 xl-w-75 d-block">Full Support</a>
-                                                        </div>
-                                                        <a href="services.blade.php" class="circle-box bg-yellow w-50px h-50px rounded-circle ms-auto position-relative rounded-box">
-                                                            <i class="bi bi-arrow-right-short absolute-middle-center icon-very-medium lh-0px text-dark-gray"></i>
-                                                        </a> 
-                                                    </div>
-                                                    <div class="position-absolute left-0px top-0px w-100 h-100 bg-gradient-gray-light-dark-transparent z-index-minus-1 opacity-9"></div> 
-                                                </figcaption>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    <!-- end content carousal item -->
-                                    <!-- start content carousal item --> 
-                                    <div class="swiper-slide">
-                                        <div class="interactive-banner-style-08">
-                                            <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
-                                                <a href="services.blade.php">
-                                                    <img src="{{asset('picture/wy1.jpg')}}" alt="" />
-                                                </a>
-                                                <figcaption class="d-flex flex-column align-items-start justify-content-center position-absolute left-0px top-0px w-100 h-100 z-index-1 p-14 lg-p-10">
-                                                    {{-- <a href="services.blade.php">
-                                                        <i class="line-icon-Money-Bag text-white icon-extra-large"></i>
-                                                    </a> --}}
-                                                    <div class="mt-auto d-flex w-100 align-items-center">
-                                                        <div class="col last-paragraph-no-margin">
-                                                            <a href="services.blade.php" class="text-white fs-24 lh-28 w-65 xl-w-75 d-block">Legal & Safe</a>
-                                                        </div>
-                                                        <a href="services.blade.php" class="circle-box bg-yellow w-50px h-50px rounded-circle ms-auto position-relative rounded-box">
-                                                            <i class="bi bi-arrow-right-short absolute-middle-center icon-very-medium lh-0px text-dark-gray"></i>
-                                                        </a>
-                                                    </div>
-                                                    <div class="position-absolute left-0px top-0px w-100 h-100 bg-gradient-gray-light-dark-transparent z-index-minus-1 opacity-9"></div> 
-                                                </figcaption>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    
-                                    
-                                  
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
+                    <h6 class="fw-bold mb-0">Right People</h6>
                 </div>
             </div>
-        </section>
+            <!-- Icon Item -->
+            <div class="col-6 col-md-3">
+                <div class="p-4 border rounded bg-white shadow-sm h-100">
+                    <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" style="width: 100px; height: 100px;">
+                        <i class="fa-solid fa-headset text-primary" style="font-size: 40px;"></i>
+                    </div>
+                    <h6 class="fw-bold mb-0">Custom Help</h6>
+                </div>
+            </div>
+            <!-- Icon Item -->
+            <div class="col-6 col-md-3">
+                <div class="p-4 border rounded bg-white shadow-sm h-100">
+                    <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" style="width: 100px; height: 100px;">
+                        <i class="fa-solid fa-handshake text-primary" style="font-size: 40px;"></i>
+                    </div>
+                    <h6 class="fw-bold mb-0">Full Support</h6>
+                </div>
+            </div>
+            <!-- Icon Item -->
+            <div class="col-6 col-md-3">
+                <div class="p-4 border rounded bg-white shadow-sm h-100">
+                    <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" style="width: 100px; height: 100px;">
+                        <i class="fa-solid fa-shield-halved text-primary" style="font-size: 40px;"></i>
+                    </div>
+                    <h6 class="fw-bold mb-0">Legal & Safe</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
 

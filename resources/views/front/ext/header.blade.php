@@ -1,6 +1,6 @@
 <header class="header-with-topbar">
     <!-- start header top bar -->
-    <div class="header-top-bar top-bar-dark bg-very-light-gray">
+    {{-- <div class="header-top-bar top-bar-dark bg-very-light-gray">
         <div class="container-fluid">
             <div class="row h-45px xs-h-auto align-items-center m-0 xs-pt-5px xs-pb-5px">
                 <div class="col-lg-6 col-md-7 text-center text-md-start xs-px-0">
@@ -19,26 +19,39 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- end header top bar -->
 
     <!-- start navigation -->
     <nav class="navbar navbar-expand-lg header-light bg-white responsive-sticky">
         <div class="container-fluid">
             <div class="col-auto col-lg-2 me-lg-0 me-auto">
-                <a class="navbar-brand" href="{{ route('index') }}">
-    @if(isset(getWebsiteData()['light_logo']))
-        <img src="{{ asset('web/media/sm/' . getWebsiteData()['light_logo']) }}" 
-             alt="{{ getWebsiteData()['name'] }}" 
-             class="default-logo">
-        <img src="{{ asset('web/media/sm/' . getWebsiteData()['light_logo']) }}" 
-             alt="{{ getWebsiteData()['name'] }}" 
-             class="alt-logo">
-        <img src="{{ asset('web/media/sm/' . getWebsiteData()['light_logo']) }}" 
-             alt="{{ getWebsiteData()['name'] }}" 
-             class="mobile-logo">
-    @endif
-</a>
+                <a class="navbar-brand" href="{{ route('index') }}" 
+                    style="display: flex; align-items: center; height: 80px; padding: 0; margin: 0;">
+                        @if(isset(getWebsiteData()['light_logo']))
+                            <img src="{{ asset('web/media/sm/' . getWebsiteData()['light_logo']) }}" 
+                                alt="{{ getWebsiteData()['name'] }}" 
+                                class="default-logo"
+                                style="height: 100%; width: auto; object-fit: contain; display: block;">
+
+                            <img src="{{ asset('web/media/sm/' . getWebsiteData()['light_logo']) }}" 
+                                alt="{{ getWebsiteData()['name'] }}" 
+                                class="alt-logo"
+                                style="height: 100%; width: auto; object-fit: contain; display: block;">
+
+                            <img src="{{ asset('web/media/sm/' . getWebsiteData()['light_logo']) }}" 
+                                alt="{{ getWebsiteData()['name'] }}" 
+                                class="mobile-logo"
+                                style="height: 100%; width: auto; object-fit: contain; display: block;">
+                        @endif
+
+                        <!-- Prostaff Name closer to logo -->
+                        <span style="color: navy; font-weight: bold; font-size: 1.5rem; margin-left: -60px;">
+                            PROSTAFF
+                        </span>
+                    </a>
+
+
 
             </div>
             <div class="col-auto menu-order position-static">
@@ -53,7 +66,6 @@
                         <li class="nav-item"><a href="{{ route('index') }}" class="nav-link">Home</a></li> 
                         <li class="nav-item"><a href="{{ route('about') }}" class="nav-link">About us</a></li>
 
-                        <li class="nav-item"><a href="{{route('services-category')}}" class="nav-link">Services</a></li> <!-- You can define route if needed -->
                         <li class="nav-item dropdown dropdown-with-icon-style02">
                             {{-- <a href="{{ route('services') }}" class="nav-link">Services</a> --}}
                             <i class="fa-solid fa-angle-down dropdown-toggle" data-bs-toggle="dropdown"></i>
@@ -62,15 +74,18 @@
                             </ul> --}}
                         </li>
 
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a href="{{ route('process') }}" class="nav-link">Foreign Employment Process</a>
-                        </li>
+                        </li> --}}
                         
                         
                         <li class="nav-item">
-                            <a href="{{ route('permit') }}" class="nav-link">Work Permit Application</a>
+                            <a href="{{ route('permit') }}" class="nav-link">Job seeker and Employer</a>
                         </li>
 
+                        <li class="nav-item">
+                            <a href="{{route('services-category')}}" class="nav-link">Our Services Sector</a>
+                        </li>
 
                         <li class="nav-item">
                             <a href="{{ route('blog') }}" class="nav-link">Blog</a>
@@ -85,9 +100,9 @@
             </div>
             <div class="col-auto col-lg-2 d-none d-sm-flex">
                 <div class="header-icon"> 
-                    <div class="header-button">
+                    {{-- <div class="header-button">
                         <a href="{{ route('contact') }}" class="btn btn-small btn-rounded btn-black btn-box-shadow">Let's discuss</a>
-                    </div>
+                    </div> --}}
                 </div>  
             </div>
         </div>

@@ -353,6 +353,24 @@
             </li>
 
 
+
+<li class="inquiry">
+    <a class="sidebar-header" href="javascript:void(0)">
+        <i data-feather="users"></i>
+        <span>Employer Inquiries</span>
+        <i class="fa fa-angle-right pull-right"></i>
+    </a>
+    <ul class="sidebar-submenu">
+        <li>
+            <a href="{{ route('employer-inq.index') }}">
+                <i class="fa fa-circle"></i>List Employer Inquiries
+            </a>
+        </li>
+    </ul>
+</li>
+
+
+
             <li class="settings">
                 <a class="sidebar-header" href="javascript:void(0)"><i
                         data-feather="settings"></i><span>Settings</span><i

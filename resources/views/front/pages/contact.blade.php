@@ -24,40 +24,22 @@
                     <div class="col-lg-5 md-mb-50px" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                         <h3 class="text-dark-gray fw-700 ls-minus-2px w-90 md-w-100">Get in Touch With Us Today</h3>
                         <p class="w-95 md-w-100">Need more information about our services? Our friendly support team is here to guide you every step of the way. Don’t hesitate to reach out.</p>
-                        <div class="row row-cols-1 justify-content-center mt-30px">                  
-                            <!-- start features box item -->
-                            {{-- <div class="col icon-with-text-style-08">
-                                <div class="feature-box feature-box-left-icon-middle overflow-hidden">
-                                    <div class="feature-box-icon feature-box-icon-rounded bg-yellow w-80px h-80px rounded-circle me-20px">
-                                        <i class="bi bi-envelope text-white icon-very-medium"></i>
-                                    </div>
-                                    <div class="feature-box-content last-paragraph-no-margin">
-                                        <span class="d-block ls-minus-05px">Join our growing team?</span>
-                                        <span class="d-block fs-22 text-dark-gray ls-minus-05px fw-600"><a href="mailto:careers@domain.com" class="text-dark-gray text-decoration-line-bottom">careers@domain.com</a></span>
-                                    </div>
-                                </div>
-                            </div> --}}
-                            <!-- end features box item -->
-                        </div>
                     </div>
+
                     <div class="col-lg-7 ps-50px lg-ps-15px">
-                        <div class="row row-cols-1 row-cols-sm-2 justify-content-center">
-                            <div class="col xs-mb-30px" data-anime='{ "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                <div class="bg-very-light-gray h-100 fs-17 lh-30 p-35px lg-p-25px border-radius-5px">
+                        <div class="row justify-content-center">
+                            <div class="col-12" data-anime='{ "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+                                <div class="bg-very-light-gray fs-17 lh-30 p-35px lg-p-25px border-radius-5px" style="max-width: 75%;">
                                     <img src="{{asset('picture/con1.jpg')}}" alt="" class="border-radius-4px mb-30px lg-mb-20px">
+                                    
                                     <span class="alt-font text-dark-gray fs-19 fw-600 d-inline-block">India</span> 
-                                    {{-- <p class="mb-15px">401 Broadway, 24th Floor, Orchard View, London</p> --}}
                                     <span class="d-block"><span class="text-dark-gray fw-600">Call:</span> <a href="tel:{{getWebsiteData()['primary_phone']}}">{{getWebsiteData()['primary_phone']}}</a></span>
-                                    <span class="d-block"><span class="text-dark-gray fw-600">Email:</span> <a href="mailto:{{getWebsiteData()['primary_mail']}}" class="text-decoration-line-bottom">{{getWebsiteData()['primary_mail']}}</a></span>
-                                </div>
-                            </div>
-                            <div class="col" data-anime='{ "translateY": [-50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-                                <div class="bg-very-light-gray h-100 fs-17 lh-30 p-35px lg-p-25px border-radius-5px">
-                                    <img src="{{asset('picture/co2.jpg')}}" alt="" class="border-radius-4px mb-30px lg-mb-20px">
-                                    <span class="alt-font text-dark-gray fs-19 fw-600 d-inline-block">Singhapur</span> 
-                                    <p class="mb-15px">{{getWebsiteData()['address']}}</p>
+                                    <span class="d-block mb-3"><span class="text-dark-gray fw-600">Email:</span> <a href="mailto:{{getWebsiteData()['primary_mail']}}" class="text-decoration-line-bottom">{{getWebsiteData()['primary_mail']}}</a></span>
+
+                                    <span class="alt-font text-dark-gray fs-19 fw-600 d-inline-block mt-3">Singapore</span>
                                     <span class="d-block"><span class="text-dark-gray fw-600">Call:</span> <a href="tel:{{getWebsiteData()['secondary_phone']}}">{{getWebsiteData()['secondary_phone']}}</a></span>
                                     <span class="d-block"><span class="text-dark-gray fw-600">Email:</span> <a href="mailto:{{getWebsiteData()['secondary_mail']}}" class="text-decoration-line-bottom">{{getWebsiteData()['secondary_mail']}}</a></span>
+                                    <p class="mb-15px">{{getWebsiteData()['address']}}</p>
                                 </div>
                             </div>
                         </div>
@@ -190,10 +172,10 @@
                 </div>
                 <div class="col-md-auto elements-social social-icon-style-04 text-center text-md-start ps-lg-0">
                     <ul class="large-icon dark">
-                        <li class="m-0"><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i><span></span></a></li>
-                        <li class="m-0"><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-dribbble"></i><span></span></a></li>
-                        <li class="m-0"><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i><span></span></a></li>      
                         <li class="m-0"><a class="instagram" href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i><span></span></a></li>
+                        <li class="m-0"><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i><span></span></a></li>
+                        <li class="m-0"><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-linkedin"></i><span></span></a></li>
+                        {{-- <li class="m-0"><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i><span></span></a></li>       --}}
                     </ul>                  
                 </div>
             </div>

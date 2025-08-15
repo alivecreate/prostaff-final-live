@@ -26,6 +26,8 @@ use App\Http\Controllers\admin\YoutubeLinkController;
 // use App\Http\Controllers\Front\YoutubeLinkController;
 use App\Http\Controllers\admin\LoginController;
 
+use App\Http\Controllers\EmployerInquiryController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -202,3 +204,24 @@ Route::fallback(function () {
     return (redirect(route('index')));
     abort(404);
 });
+
+
+
+Route::post(
+    '/employer-inquiry',
+    [App\Http\Controllers\Admin\EmployerInquiryController::class, 'store']
+)->name('employer.inquiry.store');
+
+
+// Employer Inquiry Routes
+Route::prefix('admin')->group(function () {
+    Route::get('/employer-inquiries', [App\Http\Controllers\Admin\EmployerInquiryController::class, 'index'])
+        ->name('employer-inq.index');
+
+    Route::delete('/employer-inquiries/{id}', [App\Http\Controllers\Admin\EmployerInquiryController::class, 'destroy'])
+        ->name('employer-inq.delete');
+});
+
+
+Route::post('/job-seeker/store', [App\Http\Controllers\admin\InquiryController::class, 'storeJobSeeker'])->name('jobSeeker.store');
+

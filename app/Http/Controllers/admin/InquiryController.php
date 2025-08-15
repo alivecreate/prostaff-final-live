@@ -120,6 +120,30 @@ class InquiryController extends Controller
 
     }
 
+
+    public function storeJobSeeker(Request $request)
+{
+    $request->validate([
+        'name'    => 'required|string|max:255',
+        'phone'   => 'required|string|max:30',
+        'email'   => 'required|email|max:255',
+        'message' => 'nullable|string|max:255', // "Exploring Job In" will go here
+    ]);
+
+    Inquiry::create([
+        'name'             => $request->name,
+        'phone'            => $request->phone,
+        'email'            => $request->email,
+        'service'          => $request->service ?? 'seeker', // default to seeker
+        'message'          => $request->message, // "Exploring Job In"
+        'status'           => 'pending',
+        'type'             => 'job_seeker',
+    ]);
+
+    return back()->with('success', 'Your job seeker inquiry has been submitted.');
+}
+
+
     public function storeContactForm(Request $request)
     { 
         // dd($request->file('document'));

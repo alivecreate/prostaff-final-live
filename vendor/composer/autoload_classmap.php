@@ -52,6 +52,7 @@ return array(
     'App\\Mail\\UserContactInquiryMail' => $baseDir . '/app/Mail/UserContactInquiryMail.php',
     'App\\Mail\\UserInquiryMail' => $baseDir . '/app/Mail/UserInquiryMail.php',
     'App\\Mail\\WelcomeEmail' => $baseDir . '/app/Mail/WelcomeEmail.php',
+    'App\\Models\\EmployerInquiry' => $baseDir . '/app/Models/EmployerInquiry.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Models\\admin\\Blog' => $baseDir . '/app/Models/admin/Blog.php',
     'App\\Models\\admin\\Category' => $baseDir . '/app/Models/admin/Category.php',

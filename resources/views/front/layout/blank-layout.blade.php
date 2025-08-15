@@ -21,7 +21,7 @@
    </div>
 
    <!-- back-to-top-start  -->
-   <button class="scroll-top scroll-to-target" data-target="html">
+   <button class=" scroll-to-target" data-target="html">
       <i class="fa-solid fa-arrow-up"></i>
    </button>
    <!-- back-to-top-end  -->

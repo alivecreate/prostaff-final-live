@@ -325,13 +325,13 @@ class ComposerStaticInit8b46142bedc1689261c6f15a26b914a7
         ),
         'Spatie\\LaravelIgnition\\' => 
         array (
-            0 => __DIR__ . '/..' . '/spatie/error-solutions/legacy/laravel-ignition',
-            1 => __DIR__ . '/..' . '/spatie/laravel-ignition/src',
+            0 => __DIR__ . '/..' . '/spatie/laravel-ignition/src',
+            1 => __DIR__ . '/..' . '/spatie/error-solutions/legacy/laravel-ignition',
         ),
         'Spatie\\Ignition\\' => 
         array (
-            0 => __DIR__ . '/..' . '/spatie/error-solutions/legacy/ignition',
-            1 => __DIR__ . '/..' . '/spatie/ignition/src',
+            0 => __DIR__ . '/..' . '/spatie/ignition/src',
+            1 => __DIR__ . '/..' . '/spatie/error-solutions/legacy/ignition',
         ),
         'Spatie\\FlareClient\\' => 
         array (
@@ -618,6 +618,7 @@ class ComposerStaticInit8b46142bedc1689261c6f15a26b914a7
         'App\\Mail\\UserContactInquiryMail' => __DIR__ . '/../..' . '/app/Mail/UserContactInquiryMail.php',
         'App\\Mail\\UserInquiryMail' => __DIR__ . '/../..' . '/app/Mail/UserInquiryMail.php',
         'App\\Mail\\WelcomeEmail' => __DIR__ . '/../..' . '/app/Mail/WelcomeEmail.php',
+        'App\\Models\\EmployerInquiry' => __DIR__ . '/../..' . '/app/Models/EmployerInquiry.php',
         'App\\Models\\User' => __DIR__ . '/../..' . '/app/Models/User.php',
         'App\\Models\\admin\\Blog' => __DIR__ . '/../..' . '/app/Models/admin/Blog.php',
         'App\\Models\\admin\\Category' => __DIR__ . '/../..' . '/app/Models/admin/Category.php',
