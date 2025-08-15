@@ -5,7 +5,7 @@
 <body data-mobile-nav-style="classic" class="custom-cursor overflow-x-hidden">
 
         <!-- start page title -->
-        <section class="top-space-margin page-title-big-typography cover-background r" style="background-image: url({{asset('picture/W1.jpg')}})">
+        <section class="top-space-margin page-title-big-typography cover-background r" style="background-image: url({{asset('picture/job-seeker-employee.png')}})">
             <div class="container">
                 <div class="row extra-very-small-screen align-items-center">
                     <div class="col-lg-5 col-sm-8 position-relative page-title-extra-small" data-anime='{ "el": "childs", "opacity": [0, 1], "translateX": [-30, 0], "duration": 800, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
@@ -15,19 +15,8 @@
                 </div>
             </div>
         </section>
-        <!-- end page title -->
+        
 
-        <section>
-            <div class="row justify-content-center mb-4">
-            <div class="col-lg-7 text-center">
-                <h3 class="fw-700 text-dark-gray ls-minus-2px">Job seeker and Employer</h3>
-                <h4>"For Job Seekers & Employers"</h4>
-            </div>
-        </div>
-        </section>
-
-
-        <!-- start section --> 
 <section class="bg-light py-5">
     <div class="container">
         <div class="row justify-content-center">
