@@ -79,12 +79,13 @@ Our dedicated team works closely with both candidates and employers to ensure th
                     <div class="col-12">
                         @php
                             $items = [
-                                ['img' => 'picture/10 (1).png', 'title' => 'Malaysia',],
-                                ['img' => 'picture/10 (2).png', 'title' => 'India',],
-                                ['img' => 'picture/10 (3).png', 'title' => 'Bangladesh',],
-                                ['img' => 'picture/10 (4).png', 'title' => 'Philippines',],
-                                ['img' => 'picture/10 (5).png', 'title' => 'Myanmar',],
-                                ['img' => 'picture/10 (6).png', 'title' => 'Singapore',],
+                                ['img' => 'picture/Malaysia.png', 'title' => 'Malaysia',],
+                                ['img' => 'picture/india.jpg', 'title' => 'India',],
+                                ['img' => 'picture/bangladesh.png', 'title' => 'Bangladesh',],
+                                ['img' => 'picture/philippines.jpg', 'title' => 'Philippines',],
+                                ['img' => 'picture/myanmar.png', 'title' => 'Myanmar',],
+                                ['img' => 'picture/singapore.jpg', 'title' => 'Singapore',],
+                                ['img' => 'picture/france.png', 'title' => 'France',],                                
                             ];
                         @endphp
 
@@ -224,7 +225,7 @@ Our dedicated team works closely with both candidates and employers to ensure th
         <div class="row align-items-center justify-content-center mb-4 text-center">
             <div class="col-xl-5 col-lg-6 mb-3">
                 <h4 class="text-dark-gray fw-700 mb-0 ls-minus-1px">
-                    Why choose us as your recruitment consultant?
+                    Why choose us as your trusted recruitment partner
                 </h4>
             </div>
             {{-- <div class="col-xl-5 col-lg-6">
@@ -233,45 +234,117 @@ Our dedicated team works closely with both candidates and employers to ensure th
                 </p>
             </div> --}}
         </div>
-
-        <div class="row text-center g-4">
-            <!-- Icon Item -->
-            <div class="col-6 col-md-3">
-                <div class="p-4 border rounded bg-white shadow-sm h-100">
-                    <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" style="width: 100px; height: 100px;">
-                        <i class="fa-solid fa-users text-primary" style="font-size: 40px;"></i>
-                    </div>
-                    <h6 class="fw-bold mb-0">Right People</h6>
+<div class="row text-center g-4 justify-content-center">
+    <!-- Card 1 -->
+    <div class="col-6 col-md-3">
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
+            style="font-size: 16px; color: #3d3c3c;">
+            <div>
+                <h6 class="fw-bold mb-3">Industry Expertise</h6>
+                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                    style="width: 80px; height: 80px;">
+                    <i class="fa-solid fa-industry text-primary" style="font-size: 32px;"></i>
                 </div>
-            </div>
-            <!-- Icon Item -->
-            <div class="col-6 col-md-3">
-                <div class="p-4 border rounded bg-white shadow-sm h-100">
-                    <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" style="width: 100px; height: 100px;">
-                        <i class="fa-solid fa-headset text-primary" style="font-size: 40px;"></i>
-                    </div>
-                    <h6 class="fw-bold mb-0">Custom Help</h6>
-                </div>
-            </div>
-            <!-- Icon Item -->
-            <div class="col-6 col-md-3">
-                <div class="p-4 border rounded bg-white shadow-sm h-100">
-                    <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" style="width: 100px; height: 100px;">
-                        <i class="fa-solid fa-handshake text-primary" style="font-size: 40px;"></i>
-                    </div>
-                    <h6 class="fw-bold mb-0">Full Support</h6>
-                </div>
-            </div>
-            <!-- Icon Item -->
-            <div class="col-6 col-md-3">
-                <div class="p-4 border rounded bg-white shadow-sm h-100">
-                    <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" style="width: 100px; height: 100px;">
-                        <i class="fa-solid fa-shield-halved text-primary" style="font-size: 40px;"></i>
-                    </div>
-                    <h6 class="fw-bold mb-0">Legal & Safe</h6>
-                </div>
+                <p class="mb-0">In-depth understanding of sector-specific hiring challenges.</p>
             </div>
         </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-6 col-md-3">
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
+            style="font-size: 16px; color: #3d3c3c;">
+            <div>
+                <h6 class="fw-bold mb-3">Extensive Talent Network</h6>
+                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                    style="width: 80px; height: 80px;">
+                    <i class="fa-solid fa-users text-primary" style="font-size: 32px;"></i>
+                </div>
+                <p class="mb-0">Access to a wide pool of high-caliber professionals.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-6 col-md-3">
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
+            style="font-size: 16px; color: #3d3c3c;">
+            <div>
+                <h6 class="fw-bold mb-3">Tailored Recruitment Solutions</h6>
+                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                    style="width: 80px; height: 80px;">
+                    <i class="fa-solid fa-handshake text-primary" style="font-size: 32px;"></i>
+                </div>
+                <p class="mb-0">Customized strategies aligned with your culture and goals.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-6 col-md-3">
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
+            style="font-size: 16px; color: #3d3c3c;">
+            <div>
+                <h6 class="fw-bold mb-3">Quality-Driven Approach</h6>
+                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                    style="width: 80px; height: 80px;">
+                    <i class="fa-solid fa-check-double text-primary" style="font-size: 32px;"></i>
+                </div>
+                <p class="mb-0">Rigorous screening to ensure both skill and cultural fit.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-6 col-md-3">
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
+            style="font-size: 16px; color: #3d3c3c;">
+            <div>
+                <h6 class="fw-bold mb-3">Efficiency and Value</h6>
+                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                    style="width: 80px; height: 80px;">
+                    <i class="fa-solid fa-bolt text-primary" style="font-size: 32px;"></i>
+                </div>
+                <p class="mb-0">Reduced time-to-hire and optimized recruitment costs.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="col-6 col-md-3">
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
+            style="font-size: 16px; color: #3d3c3c;">
+            <div>
+                <h6 class="fw-bold mb-3">Strategic Partnership</h6>
+                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                    style="width: 80px; height: 80px;">
+                    <i class="fa-solid fa-hand-holding-hand text-primary" style="font-size: 32px;"></i>
+                </div>
+                <p class="mb-0">A long-term, trusted extension of your HR team.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 7 -->
+    <div class="col-6 col-md-3">
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
+            style="font-size: 16px; color: #3d3c3c;">
+            <div>
+                <h6 class="fw-bold mb-3">Proven Success</h6>
+                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                    style="width: 80px; height: 80px;">
+                    <i class="fa-solid fa-trophy text-primary" style="font-size: 32px;"></i>
+                </div>
+                <p class="mb-0">Strong track record of delivering placements that drive business growth.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
     </div>
 </section>
 

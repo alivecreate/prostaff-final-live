@@ -30,16 +30,19 @@
                         <div class="row justify-content-center">
                             <div class="col-12" data-anime='{ "translateY": [50, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
                                 <div class="bg-very-light-gray fs-17 lh-30 p-35px lg-p-25px border-radius-5px" style="max-width: 75%;">
-                                    <img src="{{asset('picture/con1.jpg')}}" alt="" class="border-radius-4px mb-30px lg-mb-20px">
+                                    <img src="{{asset('picture/contact.jpg')}}" alt="" class="border-radius-4px mb-30px lg-mb-20px">
                                     
-                                    <span class="alt-font text-dark-gray fs-19 fw-600 d-inline-block">India</span> 
-                                    <span class="d-block"><span class="text-dark-gray fw-600">Call:</span> <a href="tel:{{getWebsiteData()['primary_phone']}}">{{getWebsiteData()['primary_phone']}}</a></span>
-                                    <span class="d-block mb-3"><span class="text-dark-gray fw-600">Email:</span> <a href="mailto:{{getWebsiteData()['primary_mail']}}" class="text-decoration-line-bottom">{{getWebsiteData()['primary_mail']}}</a></span>
-
+                                    
                                     <span class="alt-font text-dark-gray fs-19 fw-600 d-inline-block mt-3">Singapore</span>
                                     <span class="d-block"><span class="text-dark-gray fw-600">Call:</span> <a href="tel:{{getWebsiteData()['secondary_phone']}}">{{getWebsiteData()['secondary_phone']}}</a></span>
                                     <span class="d-block"><span class="text-dark-gray fw-600">Email:</span> <a href="mailto:{{getWebsiteData()['secondary_mail']}}" class="text-decoration-line-bottom">{{getWebsiteData()['secondary_mail']}}</a></span>
                                     <p class="mb-15px">{{getWebsiteData()['address']}}</p>
+
+
+                                    <span class="alt-font text-dark-gray fs-19 fw-600 d-inline-block">India</span> 
+                                    <span class="d-block"><span class="text-dark-gray fw-600">Call:</span> <a href="tel:{{getWebsiteData()['primary_phone']}}">{{getWebsiteData()['primary_phone']}}</a></span>
+                                    <span class="d-block mb-3"><span class="text-dark-gray fw-600">Email:</span> <a href="mailto:{{getWebsiteData()['primary_mail']}}" class="text-decoration-line-bottom">{{getWebsiteData()['primary_mail']}}</a></span>
+
                                 </div>
                             </div>
                         </div>

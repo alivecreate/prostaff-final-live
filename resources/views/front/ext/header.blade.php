@@ -16,7 +16,7 @@
 
                         <!-- Prostaff Name closer to logo -->
                         <span style="color: navy; font-weight: bold; font-size: 1.5rem; margin-left: 10px ">
-                            PROSTAFF
+                            PROSTAFF RECRUITMENT PTE.LTE
                         </span>
                     </a>
 
@@ -49,11 +49,11 @@
                         
                         
                         <li class="nav-item">
-                            <a href="{{ route('permit') }}" class="nav-link">Job Seeker and Employer</a>
+                            <a href="{{ route('permit') }}" class="nav-link">Our Services</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="{{route('services-category')}}" class="nav-link">Our Service Sectors</a>
+                            <a href="{{route('services-category')}}" class="nav-link">Our Areas of Expertise</a>
                         </li>
 
                         <li class="nav-item">
