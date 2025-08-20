@@ -38,7 +38,7 @@
             <!-- end footer column -->
 
             <!-- start footer column -->
-            <div class="col-6 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
+            <div class="col-6 col-lg-3 col-sm-4 xs-mb-30px order-sm-3 order-lg-2">
                 <span class="fs-18 fw-400 d-block text-white mb-5px">Pages</span>
                 <ul>
                     <li><a href="{{ route('index') }}">Home</a></li>
@@ -62,7 +62,7 @@
             <!-- end footer column -->
 
             <!-- start footer column -->
-            <div class="col-6 col-lg-3 col-sm-4 xs-mb-30px order-sm-5 order-lg-4">
+            <div class="col-6 col-lg-4 col-sm-4 xs-mb-30px order-sm-5 order-lg-4">
                 <span class="fs-18 fw-400 d-block text-white mb-5px">Get in touch</span>
                 {{-- <p class="mb-5px text-white">Need support?</p> --}}
                 <a href="mailto:{{ getWebsiteData()['primary_mail'] }}" class="text-white d-block mb-15px mb-2">

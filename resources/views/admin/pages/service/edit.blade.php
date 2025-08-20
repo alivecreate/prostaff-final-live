@@ -126,7 +126,7 @@
 
                             @if(!empty($service->slider_image))
                                 <div class="mt-2">
-                                    <img src="{{ asset('web\media\sm' . $service->slider_image) }}" 
+                                    <img src="{{ asset('web/media/sm/' . $service->slider_image) }}" 
                                         alt="Slider Image" 
                                         style="width: 150px; height: auto; border-radius: 6px;">
                                     <p class="text-muted mb-0 mt-1">{{ $service->slider_image }}</p>
