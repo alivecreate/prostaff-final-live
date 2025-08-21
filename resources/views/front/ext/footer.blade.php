@@ -43,8 +43,8 @@
                 <ul>
                     <li><a href="{{ route('index') }}">Home</a></li>
                     <li><a href="{{ route('about') }}">About us</a></li>
-                    <li><a href="{{ route('permit') }}">Job seeker and Employer</a></li>
-                    <li><a href="{{route('services-category')}}">Our Service Sectors</a></li>
+                    <li><a href="{{ route('permit') }}">Our Services</a></li>
+                    <li><a href="{{route('services-category')}}">Our Areas of Expertise</a></li>
                     {{-- <li><a href="{{ route('process') }}">Foreign Employment Process</a></li> --}}
                     <li><a href="{{ route('blog') }}">Blog</a></li>
                     <li><a href="{{ route('contact') }}">Contact</a></li>
@@ -65,20 +65,29 @@
             <div class="col-6 col-lg-4 col-sm-4 xs-mb-30px order-sm-5 order-lg-4">
                 <span class="fs-18 fw-400 d-block text-white mb-5px">Get in touch</span>
                 {{-- <p class="mb-5px text-white">Need support?</p> --}}
+                <span class="fs-16 fw-400 d-block text-white mb-5px">Singapore Contact:</span>
                 <a href="mailto:{{ getWebsiteData()['primary_mail'] }}" class="text-white d-block mb-15px mb-2">
                     {{ getWebsiteData()['primary_mail'] }}
                 </a>
+                
+                <a href="tel:{{ getWebsiteData()['secondary_phone'] }}" class="text-white lh-16 d-block">
+                    M : {{ getWebsiteData()['secondary_phone'] }}
+                </a><br>
+                
+              
+
+                <span class="fs-16 fw-400 d-block text-white mb-5px">India Contact:</span>
+                 
+                {{-- <p class="mb-5px text-white"></p> --}}
+                
                 <a href="mailto:{{ getWebsiteData()['secondary_mail'] }}" class="text-white d-block mb-15px">
                     {{ getWebsiteData()['secondary_mail'] }}
                 </a>
-                <span class="fs-18 fw-400 d-block text-white mb-5px">Contact No.</span>
-                {{-- <p class="mb-5px text-white"></p> --}}
+                
                 <a href="tel:{{ getWebsiteData()['primary_phone'] }}" class="text-white lh-16 d-block mb-2">
-                    {{ getWebsiteData()['primary_phone'] }}
+                    M : {{ getWebsiteData()['primary_phone'] }}
                 </a>
-                <a href="tel:{{ getWebsiteData()['secondary_phone'] }}" class="text-white lh-16 d-block">
-                    {{ getWebsiteData()['secondary_phone'] }}
-                </a>
+                
             </div>
             <!-- end footer column -->
         </div>
@@ -129,9 +138,9 @@
         </a>
 
 
-        <a href="tel:+81518464" class="float-btn call">
+        {{-- <a href="tel:+81518464" class="float-btn call">
             <i class="fas fa-phone-alt"></i>
-        </a>
+        </a> --}}
           
           <style>
             .float-btn {

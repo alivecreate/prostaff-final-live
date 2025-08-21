@@ -4,10 +4,9 @@
         <div class="container-fluid">
             <div class="col-auto col-lg-2 me-lg-0 me-auto">
                 <a class="navbar-brand" href="{{ route('index') }}" 
-                    style="display: flex; align-items: center; height: 80px; padding: 0; margin: 0;">
+                    style="display: flex;align-items: center;height: 124px;padding: 0;margin: 0;">
                         @if(isset(getWebsiteData()['light_logo']))
                            
-
                             <img src="{{ asset('web/media/sm/' . getWebsiteData()['light_logo']) }}" 
                                 alt="{{ getWebsiteData()['name'] }}" 
                                 style="height: 100%; width: auto; object-fit: contain; display: block;  border-radius: 10px;">
@@ -16,7 +15,7 @@
 
                         <!-- Prostaff Name closer to logo -->
                         <span style="color: navy; font-weight: bold; font-size: 1.5rem; margin-left: 10px ">
-                            PROSTAFF
+                            PROSTAFF RECRUITMENT PTE.LTE
                         </span>
                     </a>
 
@@ -49,11 +48,11 @@
                         
                         
                         <li class="nav-item">
-                            <a href="{{ route('permit') }}" class="nav-link">Job Seeker and Employer</a>
+                            <a href="{{ route('permit') }}" class="nav-link">Our Services</a>
                         </li>
 
                         <li class="nav-item">
-                            <a href="{{route('services-category')}}" class="nav-link">Our Service Sectors</a>
+                            <a href="{{route('services-category')}}" class="nav-link">Our Areas of Expertise</a>
                         </li>
 
                         <li class="nav-item">

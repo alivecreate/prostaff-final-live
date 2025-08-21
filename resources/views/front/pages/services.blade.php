@@ -55,6 +55,11 @@
                                         <p class="card-text text-muted">
                                             {{ Str::limit(strip_tags($service->description), 100) }}
                                         </p>
+                                        
+                    <button class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#inquiryModal">
+                        Apply / Request Info
+                    </button>
+
                                         <a href="{{ route('serviceDetail', $service->slug) }}" class="btn btn-sm btn-primary mt-2">
                                             View Details
                                         </a>
@@ -71,6 +76,8 @@
             </section>
         <!-- end section -->
 
+
+        
 
 
         {{-- <div class="text-center mb-5">
