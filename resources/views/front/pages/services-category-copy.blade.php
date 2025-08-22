@@ -22,7 +22,7 @@
 
         <!-- Page Title -->
         <div class="text-center mb-5">
-            <h2 class="fw-bold text-black">Our Areas of Expertise</h2>
+            <h2 class="fw-bold text-black">Our Service Sectors</h2>
         </div>
 
         <!-- Category Cards -->
@@ -31,18 +31,19 @@
                 <div class="col-md-6 col-lg-4 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
                        @if($category->image)
+                            <a href="{{ route('category.services', $category->slug) }}">
                                 <img src="{{ asset('web/media/lg/' . $category->image) }}"
                                     class="card-img-top"
                                     style="height: 250px; object-fit: cover;"
                                     alt="{{ $category->name }}">
+                            </a>
                         @endif
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title fw-bold text-dark">{{ $category->name }}</h5>
 
                             @if($category->description)
                                 <p class="card-text text-muted">
-                                    
-                                            {{ $category->description }}
+                                    {{ Str::limit(strip_tags($category->description), 100) }}
                                 </p>
                             @endif
 

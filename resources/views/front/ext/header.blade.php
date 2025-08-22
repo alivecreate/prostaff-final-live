@@ -14,15 +14,21 @@
                         @endif
 
                         <!-- Prostaff Name closer to logo -->
-                        <span style="color: navy; font-weight: bold; font-size: 1.5rem; margin-left: 10px ">
+                        <span class="brand-name" style="color: navy; font-weight: bold; font-size: 1.5rem; margin-left: 10px ">
                             PROSTAFF RECRUITMENT PTE.LTE
                         </span>
+                        
+                        <div class="brand-name-mobile" style="color: navy; font-weight: bold; font-size: 1rem; margin-left: 10px; margin-top: 24px;">
+                           <p style="margin-top: 0px;margin-bottom: 0px;" clsss="mb-0"> PROSTAFF RECRUITMENT</p> <p style="margin-top: -7px;"> PTE.LTE</p>
+                        </div>
+                        
+
                     </a>
 
 
 
             </div>
-            <div class="col-auto menu-order position-static">
+            <div class="col-auto menu-order position-static mb-3">
                 <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-line"></span>
                     <span class="navbar-toggler-line"></span>

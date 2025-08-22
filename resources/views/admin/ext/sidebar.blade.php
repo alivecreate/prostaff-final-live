@@ -77,7 +77,7 @@
                 </ul>
             </li>
 
-            <li class="product">
+            {{-- <li class="product">
                 <a class="sidebar-header" href="javascript:void(0)">
                     <i data-feather="box"></i>
                     <span>Products</span>
@@ -97,10 +97,10 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
 
-            <li class="service">
+            {{-- <li class="service">
                 <a class="sidebar-header" href="javascript:void(0)">
                     <i data-feather="server"></i>
                     <span>Service</span>
@@ -120,10 +120,10 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
 
-            <li class="project">
+            {{-- <li class="project">
                 <a class="sidebar-header" href="javascript:void(0)">
                     <i data-feather="briefcase"></i>
                     <span>Project</span>
@@ -143,11 +143,11 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
 
 
-        <li class="youtube-link">
+        {{-- <li class="youtube-link">
             <a class="sidebar-header" href="javascript:void(0)">
                 <i data-feather="video"></i>
                 <span>YouTube Link</span>
@@ -167,13 +167,13 @@
                     </a>
                 </li>
             </ul>
-        </li>
+        </li> --}}
 
 
 
             
 
-            <li class="gallery">
+            {{-- <li class="gallery">
                 <a class="sidebar-header" href="javascript:void(0)">
                     <i data-feather="image"></i>
                     <span>Gallery</span>
@@ -193,10 +193,10 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
 
-            <li class="industry">
+            {{-- <li class="industry">
                 <a class="sidebar-header" href="javascript:void(0)">
                     <i data-feather="box"></i>
                     <span>Industry</span>
@@ -216,9 +216,9 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
-            <li class="testimonial">
+            {{-- <li class="testimonial">
                 <a class="sidebar-header" href="javascript:void(0)">
                     <i data-feather="thumbs-up"></i>
                     <span>Testimonial</span>
@@ -306,7 +306,7 @@
             </a>
         </li>
     </ul>
-</li>
+</li> --}}
 
             <li class="blog">
                 <a class="sidebar-header" href="javascript:void(0)">

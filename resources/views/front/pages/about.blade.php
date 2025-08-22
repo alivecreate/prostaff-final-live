@@ -24,7 +24,7 @@
                 <div class="row align-items-center">
                     <!-- Left Column: Image -->
                     <div class="col-md-6 mb-4 mb-md-0">
-                        <img src="{{asset('picture/about2.png')}}" alt="About Prostaff" class="img-fluid rounded shadow">
+                        <img src="{{asset('picture/hiring-about.jpg')}}" alt="About Prostaff" class="img-fluid rounded shadow">
                     </div>
 
                     <!-- Right Column: Heading + Text -->
@@ -62,7 +62,7 @@
 
                     <!-- Right Column: Image -->
                     <div class="col-md-6 mt-4 mt-md-0">
-                        <img src="{{asset('picture/about3.jpg')}}" alt="Prostaff Team" class="img-fluid rounded shadow">
+                        <img src="{{asset('picture/career-about.jpg')}}" alt="Prostaff Team" class="img-fluid rounded shadow">
                     </div>
                 </div>
             </div>

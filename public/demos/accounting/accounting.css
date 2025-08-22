@@ -383,6 +383,14 @@ footer ul li {
 .is-touchable .cursor-page-inner {
     display: none !important;
 }
+
+
+  @media (min-width: 768px) {
+    .brand-name-mobile {
+      display: none !important;
+    }
+  }
+
 /* media query responsive */
 @media (max-width: 1300px) {
     .sticky-wrap.shadow-in {
@@ -420,6 +428,12 @@ footer ul li {
 @media (max-width: 767px) { 
     .process-step-style-03 .progress-step-separator {
         display: block;
+    }
+    header .navbar-brand img {
+        max-height: 48px;
+    }
+    .brand-name {
+        display: none;;
     }
 }
 @media (max-width: 575px) { 

@@ -49,7 +49,7 @@
                 <div class="row align-items-center">
                     <!-- Left Column: Image -->
                     <div class="col-md-6 mb-4 mb-md-0">
-                        <img src="{{asset('picture/about2.png')}}" alt="About Prostaff" class="img-fluid rounded shadow">
+                        <img src="{{asset('picture/hiring-about.jpg')}}" alt="About Prostaff" class="img-fluid rounded shadow">
                     </div>
 
                     <!-- Right Column: Heading + Text -->
@@ -179,7 +179,7 @@ Our dedicated team works closely with both candidates and employers to ensure th
 
                 <!-- Page Title -->
                 <div class="text-center mb-5">
-                    <h2 class="fw-bold text-black">Sectors we serve</h2>
+                    <h2 class="fw-bold text-black">Our Areas of Expertise</h2>
                 </div>
 
                 <!-- Category Cards -->
@@ -200,15 +200,10 @@ Our dedicated team works closely with both candidates and employers to ensure th
 
                                     @if($category->description)
                                         <p class="card-text text-muted">
-                                            {{ Str::limit(strip_tags($category->description), 100) }}
+                                            {{ $category->description }}
                                         </p>
                                     @endif
 
-                                    <div class="mt-auto">
-                                        <a href="{{ route('category.services', $category->slug) }}" class="btn btn-outline-primary btn-sm">
-                                            Explore Services
-                                        </a>
-                                    </div>
                                 </div>
                             </div>
                         </div>

@@ -38,7 +38,7 @@ public function index() {
     $services = Service::orderBy('id', 'asc')->get(); 
 
     // Fetch latest 3 categories
-    $categories = Category::latest()->take(3)->get(); 
+    $categories = Category::orderBy('id', 'asc')->get(); 
 
     return view('front.pages.index', compact('slider', 'clients', 'services', 'categories'));
 }
@@ -185,6 +185,7 @@ public function services() {
     $name = 'Services';
     $services = Service::orderBy('id', 'desc')->paginate(12);
     $categories = Category::where('status', 1)->get();
+    
 
     return view('front.pages.services', compact('services', 'pagetitle', 'name', 'categories'));
 }
@@ -405,7 +406,10 @@ public function categoryServices($slug)
 
 public function allServicesCategory()
 {
-    $categories = Category::with('services')->where('status', 1)->get();
+    // dd('tesdt');
+    // $categories = Category::with('services')->where('status', 1)->get();
+    
+    $categories = Category::orderBy('id', 'asc')->get();
 
     return view('front.pages.services-category', compact('categories'));
 }

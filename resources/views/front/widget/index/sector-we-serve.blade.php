@@ -6,7 +6,7 @@
                <div class="col-xl-6">
                   <div class="it-work-title-box text-center mb-70">
                      <span class="it-subtitle mb-30">Applications</span>
-                     <h3 class="it-section-title">Sectors We Serve</h3>
+                     <h3 class="it-section-title">Our Areas of Expertise</h3>
                   </div>
                </div>
             </div>
