@@ -28,7 +28,7 @@
 
 
             </div>
-            <div class="col-auto menu-order position-static mb-3">
+            <div class="col-auto menu-order position-static">
                 <button class="navbar-toggler float-start" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                     <span class="navbar-toggler-line"></span>
                     <span class="navbar-toggler-line"></span>

@@ -33,7 +33,7 @@
             </li>
 
 
-            <li class="slider">
+            {{-- <li class="slider">
                 <a class="sidebar-header" href="javascript:void(0)">
                     <i data-feather="film"></i>
                     <span>Sliders</span>
@@ -53,7 +53,7 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
 
             <li class="category">
                 <a class="sidebar-header" href="javascript:void(0)">
