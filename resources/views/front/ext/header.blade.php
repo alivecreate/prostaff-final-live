@@ -14,11 +14,11 @@
                         @endif
 
                         <!-- Prostaff Name closer to logo -->
-                        <span class="brand-name" style="color: navy; font-weight: bold; font-size: 1.5rem; margin-left: 10px ">
+                        <span class="brand-name" style="navy; font-weight: bold; font-size: 1.5rem; margin-left: 10px ">
                             PROSTAFF RECRUITMENT PTE.LTE
                         </span>
                         
-                        <div class="brand-name-mobile" style="color: navy; font-weight: bold; font-size: 1rem; margin-left: 10px; margin-top: 24px;">
+                        <div class="brand-name-mobile" style="display:none; color: navy; font-weight: bold; font-size: 1rem; margin-left: 10px; margin-top: 24px;">
                            <p style="margin-top: 0px;margin-bottom: 0px;" clsss="mb-0"> PROSTAFF RECRUITMENT</p> <p style="margin-top: -7px;"> PTE.LTE</p>
                         </div>
                         
