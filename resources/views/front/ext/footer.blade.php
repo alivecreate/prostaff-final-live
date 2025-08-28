@@ -54,9 +54,14 @@
 
             <!-- start footer column -->
             <div class="col-6 col-lg-2 col-sm-4 xs-mb-30px order-sm-4 order-lg-3">
-                <span class="fs-18 fw-400 d-block text-white mb-5px">Who We Are</span>
+                {{-- <span class="fs-18 fw-400 d-block text-white mb-5px">Who We Are</span>
                 <p class="text-white" style="max-width: 200px; line-height: 1.6;">
                     Prostaff Recruitment connects skilled manpower with global job opportunities in diverse industries.
+                </p> --}}
+
+                <span class="fs-18 fw-400 d-block text-white mb-5px">Address :</span>
+                <p class="mb-15px" style="color: #fff;">
+                    {{ getWebsiteData()['address'] }}
                 </p>
             </div>
             <!-- end footer column -->
@@ -72,7 +77,10 @@
                 
                 <a href="tel:{{ getWebsiteData()['secondary_phone'] }}" class="text-white lh-16 d-block">
                     M : {{ getWebsiteData()['secondary_phone'] }}
-                </a><br>
+                </a>
+
+                <br>
+
                 
               
 
@@ -133,7 +141,7 @@
     </div>
 </footer>
 
-        <a href="https://wa.me/+6581518464?text=Hi%2C%20I%E2%80%99m%20interested%20in%20your%20recruitment%20services.%20Please%20share%20details%20about%20the%20process%2C%20available%20opportunities%2C%20and%20how%20I%20can%20apply.%20Thank%20you%21" target="_blank" class="whatsapp-float">
+        <a href="https://wa.me/+918078688378?text=Hi%2C%20I%E2%80%99m%20interested%20in%20your%20recruitment%20services.%20Please%20share%20details%20about%20the%20process%2C%20available%20opportunities%2C%20and%20how%20I%20can%20apply.%20Thank%20you%21" target="_blank" class="whatsapp-float">
             <i class="fab fa-whatsapp"></i>
         </a>
 

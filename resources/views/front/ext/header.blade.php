@@ -15,7 +15,7 @@
 
                         <!-- Prostaff Name closer to logo -->
                         <span class="brand-name" style="navy; font-weight: bold; font-size: 1.5rem; margin-left: 10px ">
-                            PROSTAFF RECRUITMENT PTE.LTE
+                            PROSTAFF RECRUITMENT PTE.LTD
                         </span>
                         
                         <div class="brand-name-mobile" style="display:none; color: navy; font-weight: bold; font-size: 1rem; margin-left: 10px; margin-top: 24px;">

@@ -40,7 +40,7 @@
                     @endif
 
                     <!-- Show services -->
-                    <div class="row">
+                    {{-- <div class="row">
                         @forelse($services as $service)
                             <div class="col-md-4 mb-4">
                                 <div class="card h-100 shadow-sm">
@@ -71,9 +71,9 @@
                                 <p class="text-muted">No services found in this category.</p>
                             </div>
                         @endforelse
-                    </div>
+                    </div> --}}
                 </div>
-            </section>
+            </section> 
         <!-- end section -->
 
 

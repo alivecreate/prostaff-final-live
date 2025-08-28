@@ -56,9 +56,7 @@
                     <div class="col-md-6">
                         <h2 class="fw-bold mb-3 text-black">Who We Are..</h2>
                         <p class="text-muted">
-                            Prostaff Recruitment Pte Ltd is a leading global manpower solutions provider headquartered in singapore, with a proven track record in delivering high-quality overseas placement services. Leveraging years of expertise in international recruitment, we specialize in connecting skilled and semi-skilled professionals with reputable employers across diverse industries such as construction, engineering, healthcare, hospitality, IT, manufacturing, and more.
-
-Our dedicated team works closely with both candidates and employers to ensure the perfect match—helping businesses overcome talent shortages while empowering individuals to achieve their career aspirations abroad. With a strong network of international partners and a deep understanding of global labor market trends, we are committed to delivering ethical, transparent, and efficient recruitment solutions.
+                        Prostaff Recruitment Pte Ltd is a leading global manpower solutions provider headquartered in Singapore, with a proven track record in delivering high-quality overseas placement services. We specialize in connecting skilled and semi-skilled professionals with reputable employers across diverse industries such as construction, engineering, healthcare, hospitality, IT, manufacturing, and more. Our dedicated team works closely with both candidates and employers to ensure the perfect match—helping businesses overcome talent shortages while empowering individuals to achieve their career aspirations abroad. With a strong network of international partners and a deep understanding of global labor market trends, we are committed to delivering ethical, transparent, and efficient recruitment solutions.
                         </p>
                     </div>
                 </div>
@@ -229,115 +227,113 @@ Our dedicated team works closely with both candidates and employers to ensure th
                 </p>
             </div> --}}
         </div>
+
 <div class="row text-center g-4 justify-content-center">
     <!-- Card 1 -->
     <div class="col-6 col-md-3">
-        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
-            style="font-size: 16px; color: #3d3c3c;">
-            <div>
-                <h6 class="fw-bold mb-3">Industry Expertise</h6>
-                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
-                    style="width: 80px; height: 80px;">
-                    <i class="fa-solid fa-industry text-primary" style="font-size: 32px;"></i>
-                </div>
-                <p class="mb-0">In-depth understanding of sector-specific hiring challenges.</p>
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column align-items-center text-center p-4" 
+             style="font-size: 16px; color: #3d3c3c;">
+            <h6 class="fw-bold mb-3">Industry Expertise</h6>
+            <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                 style="width: 80px; height: 80px;">
+                <i class="fa-solid fa-industry text-primary" style="font-size: 32px;"></i>
             </div>
+            <p class="mb-0 flex-grow-1 d-flex align-items-center justify-content-center">
+                In-depth understanding of sector-specific hiring challenges.
+            </p>
         </div>
     </div>
 
     <!-- Card 2 -->
     <div class="col-6 col-md-3">
-        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
-            style="font-size: 16px; color: #3d3c3c;">
-            <div>
-                <h6 class="fw-bold mb-3">Extensive Talent Network</h6>
-                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
-                    style="width: 80px; height: 80px;">
-                    <i class="fa-solid fa-users text-primary" style="font-size: 32px;"></i>
-                </div>
-                <p class="mb-0">Access to a wide pool of high-caliber professionals.</p>
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column align-items-center text-center p-4" 
+             style="font-size: 16px; color: #3d3c3c;">
+            <h6 class="fw-bold mb-3">Extensive Talent Network</h6>
+            <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                 style="width: 80px; height: 80px;">
+                <i class="fa-solid fa-users text-primary" style="font-size: 32px;"></i>
             </div>
+            <p class="mb-0 flex-grow-1 d-flex align-items-center justify-content-center">
+                Access to a wide pool of high-caliber professionals.
+            </p>
         </div>
     </div>
 
     <!-- Card 3 -->
     <div class="col-6 col-md-3">
-        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
-            style="font-size: 16px; color: #3d3c3c;">
-            <div>
-                <h6 class="fw-bold mb-3">Tailored Recruitment Solutions</h6>
-                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
-                    style="width: 80px; height: 80px;">
-                    <i class="fa-solid fa-handshake text-primary" style="font-size: 32px;"></i>
-                </div>
-                <p class="mb-0">Customized strategies aligned with your culture and goals.</p>
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column align-items-center text-center p-4" 
+             style="font-size: 16px; color: #3d3c3c;">
+            <h6 class="fw-bold mb-3">Tailored Recruitment Solutions</h6>
+            <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                 style="width: 80px; height: 80px;">
+                <i class="fa-solid fa-handshake text-primary" style="font-size: 32px;"></i>
             </div>
+            <p class="mb-0 flex-grow-1 d-flex align-items-center justify-content-center">
+                Customized strategies aligned with your culture and goals.
+            </p>
         </div>
     </div>
 
     <!-- Card 4 -->
     <div class="col-6 col-md-3">
-        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
-            style="font-size: 16px; color: #3d3c3c;">
-            <div>
-                <h6 class="fw-bold mb-3">Quality-Driven Approach</h6>
-                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
-                    style="width: 80px; height: 80px;">
-                    <i class="fa-solid fa-check-double text-primary" style="font-size: 32px;"></i>
-                </div>
-                <p class="mb-0">Rigorous screening to ensure both skill and cultural fit.</p>
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column align-items-center text-center p-4" 
+             style="font-size: 16px; color: #3d3c3c;">
+            <h6 class="fw-bold mb-3">Quality-Driven Approach</h6>
+            <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                 style="width: 80px; height: 80px;">
+                <i class="fa-solid fa-check-double text-primary" style="font-size: 32px;"></i>
             </div>
+            <p class="mb-0 flex-grow-1 d-flex align-items-center justify-content-center">
+                Rigorous screening to ensure both skill and cultural fit.
+            </p>
         </div>
     </div>
 
     <!-- Card 5 -->
     <div class="col-6 col-md-3">
-        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
-            style="font-size: 16px; color: #3d3c3c;">
-            <div>
-                <h6 class="fw-bold mb-3">Efficiency and Value</h6>
-                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
-                    style="width: 80px; height: 80px;">
-                    <i class="fa-solid fa-bolt text-primary" style="font-size: 32px;"></i>
-                </div>
-                <p class="mb-0">Reduced time-to-hire and optimized recruitment costs.</p>
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column align-items-center text-center p-4" 
+             style="font-size: 16px; color: #3d3c3c;">
+            <h6 class="fw-bold mb-3">Efficiency and Value</h6>
+            <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                 style="width: 80px; height: 80px;">
+                <i class="fa-solid fa-bolt text-primary" style="font-size: 32px;"></i>
             </div>
+            <p class="mb-0 flex-grow-1 d-flex align-items-center justify-content-center">
+                Reduced time-to-hire and optimized recruitment costs.
+            </p>
         </div>
     </div>
 
     <!-- Card 6 -->
     <div class="col-6 col-md-3">
-        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
-            style="font-size: 16px; color: #3d3c3c;">
-            <div>
-                <h6 class="fw-bold mb-3">Strategic Partnership</h6>
-                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
-                    style="width: 80px; height: 80px;">
-                    <i class="fa-solid fa-hand-holding-hand text-primary" style="font-size: 32px;"></i>
-                </div>
-                <p class="mb-0">A long-term, trusted extension of your HR team.</p>
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column align-items-center text-center p-4" 
+             style="font-size: 16px; color: #3d3c3c;">
+            <h6 class="fw-bold mb-3">Strategic Partnership</h6>
+            <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                 style="width: 80px; height: 80px;">
+                <i class="fa-solid fa-hand-holding-hand text-primary" style="font-size: 32px;"></i>
             </div>
+            <p class="mb-0 flex-grow-1 d-flex align-items-center justify-content-center">
+                A long-term, trusted extension of your HR team.
+            </p>
         </div>
     </div>
 
     <!-- Card 7 -->
     <div class="col-6 col-md-3">
-        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column justify-content-between p-4" 
-            style="font-size: 16px; color: #3d3c3c;">
-            <div>
-                <h6 class="fw-bold mb-3">Proven Success</h6>
-                <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
-                    style="width: 80px; height: 80px;">
-                    <i class="fa-solid fa-trophy text-primary" style="font-size: 32px;"></i>
-                </div>
-                <p class="mb-0">Strong track record of delivering placements that drive business growth.</p>
+        <div class="border rounded bg-white shadow-sm h-100 d-flex flex-column align-items-center text-center p-4" 
+             style="font-size: 16px; color: #3d3c3c;">
+            <h6 class="fw-bold mb-3">Proven Success</h6>
+            <div class="d-inline-flex align-items-center justify-content-center border border-primary rounded-circle mb-3" 
+                 style="width: 80px; height: 80px;">
+                <i class="fa-solid fa-trophy text-primary" style="font-size: 32px;"></i>
             </div>
+            <p class="mb-0 flex-grow-1 d-flex align-items-center justify-content-center">
+                Strong track record of delivering placements that drive business growth.
+            </p>
         </div>
     </div>
 </div>
-
-
-
 
 
     </div>

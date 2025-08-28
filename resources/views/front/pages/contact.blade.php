@@ -35,13 +35,14 @@
                                     
                                     <span class="alt-font text-dark-gray fs-19 fw-600 d-inline-block mt-3">Singapore</span>
                                     <span class="d-block"><span class="text-dark-gray fw-600">Call:</span> <a href="tel:{{getWebsiteData()['secondary_phone']}}">{{getWebsiteData()['secondary_phone']}}</a></span>
-                                    <span class="d-block"><span class="text-dark-gray fw-600">Email:</span> <a href="mailto:{{getWebsiteData()['secondary_mail']}}" class="text-decoration-line-bottom">{{getWebsiteData()['secondary_mail']}}</a></span>
+                                    <span class="d-block mb-3"><span class="text-dark-gray fw-600">Email:</span> <a href="mailto:{{getWebsiteData()['primary_mail']}}" class="text-decoration-line-bottom">{{getWebsiteData()['primary_mail']}}</a></span>
+                                    
                                     <p class="mb-15px">{{getWebsiteData()['address']}}</p>
 
 
                                     <span class="alt-font text-dark-gray fs-19 fw-600 d-inline-block">India</span> 
                                     <span class="d-block"><span class="text-dark-gray fw-600">Call:</span> <a href="tel:{{getWebsiteData()['primary_phone']}}">{{getWebsiteData()['primary_phone']}}</a></span>
-                                    <span class="d-block mb-3"><span class="text-dark-gray fw-600">Email:</span> <a href="mailto:{{getWebsiteData()['primary_mail']}}" class="text-decoration-line-bottom">{{getWebsiteData()['primary_mail']}}</a></span>
+                                    <span class="d-block"><span class="text-dark-gray fw-600">Email:</span> <a href="mailto:{{getWebsiteData()['secondary_mail']}}" class="text-decoration-line-bottom">{{getWebsiteData()['secondary_mail']}}</a></span>
 
                                 </div>
                             </div>
@@ -177,7 +178,14 @@
                     <ul class="large-icon dark">
                         <li class="m-0"><a class="instagram" href="http://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i><span></span></a></li>
                         <li class="m-0"><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i><span></span></a></li>
-                        <li class="m-0"><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-linkedin"></i><span></span></a></li>
+
+                        <li class="m-0">
+                            <a class="linkedin" href="https://www.linkedin.com" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i><span></span>
+                            </a>
+                        </li>
+
+                        {{-- <li class="m-0"><a class="dribbble" href="http://www.dribbble.com" target="_blank"><i class="fa-brands fa-linkedin"></i><span></span></a></li> --}}
                         {{-- <li class="m-0"><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i><span></span></a></li>       --}}
                     </ul>                  
                 </div>
