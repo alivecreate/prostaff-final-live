@@ -37,7 +37,8 @@
                                     <span class="d-block"><span class="text-dark-gray fw-600">Call:</span> <a href="tel:{{getWebsiteData()['secondary_phone']}}">{{getWebsiteData()['secondary_phone']}}</a></span>
                                     <span class="d-block mb-3"><span class="text-dark-gray fw-600">Email:</span> <a href="mailto:{{getWebsiteData()['primary_mail']}}" class="text-decoration-line-bottom">{{getWebsiteData()['primary_mail']}}</a></span>
                                     
-                                    <p class="mb-15px">{{getWebsiteData()['address']}}</p>
+                                    <span class="d-block mb-3"><span class="text-dark-gray fw-600">Address:</span> <a class="text-decoration-line-bottom">{{getWebsiteData()['address']}}</a></span>
+                                    {{-- <p class="mb-15px">{{getWebsiteData()['address']}}</p> --}}
 
 
                                     <span class="alt-font text-dark-gray fs-19 fw-600 d-inline-block">India</span> 
@@ -158,7 +159,7 @@
                             
                             const text = `Hi, I am *${name}*. Please provide more info.\n\nHere are my details:\nName: ${name}\nPhone: ${phone}\nEmail: ${email}\nMessage: ${message}`;
                             const encodedText = encodeURIComponent(text);
-                            const whatsappNumber = "8078688378"; // Include your country code
+                            const whatsappNumber = "918078688378"; // Include your country code
                             window.open(`https://wa.me/${whatsappNumber}?text=${encodedText}`, '_blank');
                         }
                     </script>

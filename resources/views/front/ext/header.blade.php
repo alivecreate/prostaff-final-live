@@ -14,7 +14,7 @@
                         @endif
 
                         <!-- Prostaff Name closer to logo -->
-                        <span class="brand-name" style="navy; font-weight: bold; font-size: 1.5rem; margin-left: 10px ">
+                        <span class="brand-name" style="navy; font-weight: bold; font-size: 1.3rem; margin-left: 4px ">
                             PROSTAFF RECRUITMENT PTE.LTD
                         </span>
                         
@@ -23,7 +23,7 @@
                         </div>
                         
 
-                    </a>
+                </a>
 
 
 
